@@ -1,4 +1,3 @@
-# Wego_Gps_sim
 
 ### Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
 
