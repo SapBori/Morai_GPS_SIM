@@ -37,5 +37,7 @@
 4. 영상
 
     <img src="./gif/path_making.gif">
-
+    
+    ---
+   
     <img src="./gif/path_planning.gif">
