@@ -40,4 +40,4 @@
     
     ---
    
-    <img src="./gif/path_planning.gif">
+    <img src="./gif/path_planner.gif">
