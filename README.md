@@ -48,10 +48,10 @@
     - 1. Pure pursuit
       주어진 path를 따라가게 하기 위한 알고리즘
            1. vehicle length
-           2. lfd = look forward distance
-           3. min_lfd
-           4. max_lfd
-           5. steering 
+           1. lfd = look forward distance
+           1. min_lfd
+           1. max_lfd
+           1. steering 
      
     - 2. lattice
       장애물 회피를 위한 예비 경로 설정
