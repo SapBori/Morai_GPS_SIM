@@ -1,5 +1,8 @@
 
-### Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
+# 목표
+## Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
+
+---
 
 1. Mapping 
     - 모라이 시뮬레이션 시작, GPS 사용이기에 실내보다는 실외 맵으로 실행
@@ -13,6 +16,8 @@
     - 실행 하면 **[xx.xxxx, xx.xxxx]** 이렇게 나오면 맵이 저장되고 있다는 것
     - 0.5m씩 이동할때마다 좌표값이 출력되고 로봇을 이동시켜 Path를 만든다.
     - 다 만들고 path_maker.launch 종료하면 scout_ros 패키지의 path 폴더에 xxx.txt 파일이 생성
+
+-------
 
 2. Path Planning and Following
     - Mapping에서 path_maker 런치 파일만 끈 상태에서 시작
@@ -29,6 +34,7 @@
     - 켜진 Rviz 화면에서 형성된 Path 확인
     - Morai에서 AutoMode로 변경하면 Path를 따라서 로봇이 이동
 
+-----
 
 3. Parameter 및 launch 파일 설명
     #### Launch
@@ -66,9 +72,10 @@
             4. controlTime - 제어기 dt
             5. prev_error
             6. i_control
-        
+
+--------
    
-5. 영상
+4. 영상
 
     <img src="./gif/path_making.gif">
     
