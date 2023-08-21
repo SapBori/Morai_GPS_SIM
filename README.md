@@ -49,20 +49,21 @@
       주어진 path를 따라가게 하기 위한 알고리즘
            1. vehicle length
            1. lfd = look forward distance
-           1. min_lfd
-           1. max_lfd
-           1. steering 
+           1. min_lfd : 최소 lfd
+           1. max_lfd : 최대 lfd
+           1. steering : 조향각(이 변수를 이용해서 로봇의 회전 속도를 결정)
      
     - 2. local planning and lattice
          경로 최적화 및 장애물 회피를 위한 예비 경로 계산 및 표시
-            1. lane_off_set
-            2. lane_weight
+            1. lane_off_set - 경로의 간격
+            2. lane_weight - 경로 선택시 
+   
     - 3. pidController
       시뮬레이션의 모터 속도 제어
-            1. p_gain
+            1. p_gain    
             2. i_gain
             3. d_gain
-            4. controlTime
+            4. controlTime - 제어기 dt
             5. prev_error
             6. i_control
         
