@@ -53,8 +53,8 @@
            1. max_lfd
            1. steering 
      
-    - 2. lattice
-      장애물 회피를 위한 예비 경로 설정
+    - 2. local planning and lattice
+         경로 최적화 및 장애물 회피를 위한 예비 경로 계산 및 표시
             1. lane_off_set
             2. lane_weight
     - 3. pidController
