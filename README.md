@@ -31,9 +31,43 @@
 
 
 3. Parameter 및 launch 파일 설명
+    #### Launch
+    - 1. path_maker.launch
+         - node pkg = 어느 노드 패키지에 속하는지,
+         - type = 실행 파일 설정
+         - name = 노드 이름
+         - args = 함수 값 (map이 저장될 폴더, 저장할 이름, 위도, 경도)
+         - output = 출력 위치
 
+    - 2. planner.launch
+        - args = map이 저장된 파일, 시작 위도, 시작 경도
+        - rviz 실행 및 설정 노드
+              - args = rviz 설정 파일 위치
 
-4. 영상
+    #### ParaMeter(utils.py의 함수)
+    - 1. Pure pursuit
+      주어진 path를 따라가게 하기 위한 알고리즘
+           1. vehicle length
+           2. lfd = look forward distance
+           3. min_lfd
+           4. max_lfd
+           5. steering 
+     
+    - 2. lattice
+      장애물 회피를 위한 예비 경로 설정
+            1. lane_off_set
+            2. lane_weight
+    - 3. pidController
+      시뮬레이션의 모터 속도 제어
+            1. p_gain
+            2. i_gain
+            3. d_gain
+            4. controlTime
+            5. prev_error
+            6. i_control
+        
+   
+5. 영상
 
     <img src="./gif/path_making.gif">
     
