@@ -2,7 +2,7 @@
 ### Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
 
 1. Mapping 
-    - 모라이 시뮬레이션 시작
+    - 모라이 시뮬레이션 시작, GPS 사용이기에 실내보다는 실외 맵으로 실행
     - 로봇에 GPS 장착 후 connect
     - 아래 launch 파일 실행
     ```
