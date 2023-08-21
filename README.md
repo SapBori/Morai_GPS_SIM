@@ -1,6 +1,8 @@
 
-# 목표
-## Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
+# Scout-mini GPS Simulation
+
+## 목표
+- Morai_Simulation 내부의 GPS을 이용해서 Mapping & Navigation
 
 ---
 
