@@ -55,8 +55,8 @@
      
     - 2. local planning and lattice
          경로 최적화 및 장애물 회피를 위한 예비 경로 계산 및 표시
-            1. lane_off_set - 경로의 간격
-            2. lane_weight - 경로 선택시 
+            1. lane_off_set - 예비 경로의 간격
+            2. lane_weight - 경로 선택시 어느것을 먼저 선택할지에 대한 가중치(가운데부터 멀어질 수록 가중치가 높음)
    
     - 3. pidController
       시뮬레이션의 모터 속도 제어
